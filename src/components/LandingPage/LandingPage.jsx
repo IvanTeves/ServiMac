@@ -53,7 +53,7 @@ const About = () => (
     <div className={styles.aboutContent}>
       <h2 className={styles.sectionTitle}>Sobre ServiMac</h2>
       <p className={styles.aboutText}>
-        En ServyMac nos dedicamos a proveer las mejores soluciones en equipamiento fitness. 
+        En ServyMac nos dedicamos  a proveer las mejores soluciones en equipamiento fitness. 
         Nuestra misión es ayudar a gimnasios y particulares a alcanzar sus objetivos con maquinaria 
         de última tecnología, robusta y con un diseño impecable.
       </p>
