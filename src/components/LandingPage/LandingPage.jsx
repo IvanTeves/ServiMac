@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './styles.module.css';
 import { machines } from '../../data/machines';
+import logo from '../../assets/logo-servymac-sin-fondo.png';
 
 const Header = () => (
   <header className={styles.header}>
-    <div className={styles.logo}>SERVYMAC</div>
+    <img src={logo} alt="Logo"  style={{width:'200px'}} />
     <nav className={styles.nav}>
       <a className={styles.navLink} href="#hero">Inicio</a>
       <a className={styles.navLink} href="#machines">Equipos</a>
