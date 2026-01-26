@@ -4,7 +4,7 @@ import { machines } from '../../data/machines';
 
 const Header = () => (
   <header className={styles.header}>
-    <div className={styles.logo}>SERVIMAC</div>
+    <div className={styles.logo}>SERVYMAC</div>
     <nav className={styles.nav}>
       <a className={styles.navLink} href="#hero">Inicio</a>
       <a className={styles.navLink} href="#machines">Equipos</a>
@@ -53,7 +53,7 @@ const About = () => (
     <div className={styles.aboutContent}>
       <h2 className={styles.sectionTitle}>Sobre ServiMac</h2>
       <p className={styles.aboutText}>
-        En ServiMac nos dedicamos a proveer las mejores soluciones en equipamiento fitness. 
+        En ServyMac nos dedicamos  a proveer las mejores soluciones en equipamiento fitness. 
         Nuestra misión es ayudar a gimnasios y particulares a alcanzar sus objetivos con maquinaria 
         de última tecnología, robusta y con un diseño impecable.
       </p>
