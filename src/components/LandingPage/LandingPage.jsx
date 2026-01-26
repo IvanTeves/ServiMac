@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './styles.module.css';
 import { machines } from '../../data/machines';
+import logo from '../../assets/logo-servymac-sin-fondo.png';
 
 const Header = () => (
   <header className={styles.header}>
-    <div className={styles.logo}>SERVYMAC</div>
+    <img src={logo} alt="Logo"  style={{width:'200px'}} />
     <nav className={styles.nav}>
       <a className={styles.navLink} href="#hero">Inicio</a>
       <a className={styles.navLink} href="#machines">Equipos</a>
@@ -63,9 +64,11 @@ const About = () => (
 
 const Footer = () => (
   <footer id="contact" className={styles.footer}>
-    <div className={styles.logo} style={{ marginBottom: '1rem' }}>SERVIMAC</div>
+    <div className={styles.logo} style={{ marginBottom: '1rem' }}>SERVYMAC
+</div>
     <p className={styles.footerText}>© 2026 ServiMac. Todos los derechos reservados.</p>
-    <p className={styles.footerText}>Contacto: info@servimac.com | +54 11 1234 5678</p>
+    <p className={styles.footerText}>Contacto: info@servymac
+.com | +54 11 1234 5678</p>
   </footer>
 );
 
