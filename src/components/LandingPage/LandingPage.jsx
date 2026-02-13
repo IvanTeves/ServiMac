@@ -52,7 +52,7 @@ const MachineList = () => (
 const About = () => (
   <section id="about" className={`${styles.about} ${styles.hidden}`}>
     <div className={styles.aboutContent}>
-      <h2 className={styles.sectionTitle}>Sobre ServiMac</h2>
+      <h2 className={styles.sectionTitle}>Sobre ServyMac</h2>
       <p className={styles.aboutText}>
         Somos una empresa con más de 30 años de experiencia en la fabricación de máquinas de gimnasio y equipamiento fitness. Nacimos en los años 90 a partir de la combinación de dos pilares fundamentales: el conocimiento profundo del mundo del entrenamiento y la precisión del trabajo en metal.
       </p>
