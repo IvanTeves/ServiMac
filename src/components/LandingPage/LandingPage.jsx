@@ -76,7 +76,7 @@ const Footer = () => (
   <footer id="contact" className={styles.footer}>
     <div className={styles.logo} style={{ marginBottom: '1rem' }}>SERVYMAC
 </div>
-    <p className={styles.footerText}>© 2026 ServiMac. Todos los derechos reservados.</p>
+    <p className={styles.footerText}>© 2026 ServyMac. Todos los derechos reservados.</p>
     <p className={styles.footerText}>Contacto: info@servymac
 .com | +54 11 1234 5678</p>
   </footer>
