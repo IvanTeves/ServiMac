@@ -54,9 +54,19 @@ const About = () => (
     <div className={styles.aboutContent}>
       <h2 className={styles.sectionTitle}>Sobre ServiMac</h2>
       <p className={styles.aboutText}>
-        En ServyMac nos dedicamos  a proveer las mejores soluciones en equipamiento fitness. 
-        Nuestra misión es ayudar a gimnasios y particulares a alcanzar sus objetivos con maquinaria 
-        de última tecnología, robusta y con un diseño impecable.
+        Somos una empresa con más de 30 años de experiencia en la fabricación de máquinas de gimnasio y equipamiento fitness. Nacimos en los años 90 a partir de la combinación de dos pilares fundamentales: el conocimiento profundo del mundo del entrenamiento y la precisión del trabajo en metal.
+      </p>
+      <p className={styles.aboutText}>
+        Desde nuestros inicios, diseñamos y fabricamos máquinas de gimnasio con diseño biomecánico, enfocadas en la resistencia estructural, la durabilidad y el rendimiento en entrenamientos intensivos. Actualmente, más de 30 gimnasios en Rosario entrenan con nuestros equipos, y realizamos envíos a toda la Argentina.
+      </p>
+      <p className={styles.aboutText}>
+        Ofrecemos equipamiento fitness personalizado, tanto para gimnasios profesionales como para uso domiciliario, adaptando cada máquina al espacio disponible, al tipo de entrenamiento y a las necesidades específicas de cada cliente. La fabricación a medida es parte central de nuestro proceso de trabajo.
+      </p>
+      <p className={styles.aboutText}>
+        Nuestros equipos se destacan por su robustez, confiabilidad y larga vida útil, convirtiéndose en una inversión sólida para gimnasios, estudios de entrenamiento y hogares que buscan calidad profesional.
+      </p>
+      <p className={styles.aboutText}>
+        Además, contamos con gimnasio propio que también funciona como showroom, donde podes ver y probar nuestro equipamiento. Acércate a Essentia Fitness en España 1968, Rosario.
       </p>
     </div>
   </section>
